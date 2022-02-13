@@ -1,0 +1,127 @@
+body{
+	background-color: #E8DAB2;
+    color: #B26700;
+    font-family: Bembo;
+    line-height: 1.5;
+    font-size: 16px;
+}
+h1,h2,h3{
+	font-family: 'Open Sans', sans-serif;	
+	font-style: bold;
+	letter-spacing: 4px;
+	line-height: 60px;
+}
+h1{
+	font-size: 42px;
+	color: #2F242C;
+	font-weight: 800;
+	background-color: #A26769;
+}
+h2{
+	font-size: 28px;
+	background-color: #C2CFB2;
+	color: #4C86A8;
+	font-weight: 600;
+}
+h3{ color: cornflowerblue;
+ }
+a{
+	color: #03045E;
+	transition: color 0.4s ease;
+	text-decoration: none;
+	font-family: 'EB Garamond', serif;
+}
+a:hover { 
+	color: #702632;
+}
+p{
+	font-family: 'EB Garamond', serif;
+	color: #141301;}
+
+	
+	
+
+/*custom design with class*/
+	.container{
+		width: 800px;
+		margin: 50px auto;}
+@media (max-width: 800px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    width: 300px;
+  }
+}
+
+	.card-beige{
+		width: 700px;
+		margin: 50px auto;
+		background-color: #f5f5dc ;
+		box-shadow:0px 10px 30px rgba(80,80,80,0.5);
+		border-radius: 8px;
+		padding: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		}
+	.image-circle{
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(211,211,211,1);
+	}
+
+	.text-blue{
+		color: #031927;
+		transition: color 0.4s ease;
+		text-decoration: none;
+		font-family: 'EB Garamond', serif;
+		background-color: #C3D898;
+		padding: 10px;
+		}
+	.text-blue:hover { 
+	color: #702632;
+	}
+	.list-inline{
+		list-style: none;
+	}
+	.list-inline li{
+		display: inline;
+		padding: 40px;
+	}
+
+/*custom design with id*/
+	#intro p{
+		margin-bottom: 20px;
+	}
+
+	#logo-facebook{
+		color: blue;
+	}
+
+	#logo-facebook:hover { 
+	color: darkred;}
+
+	#logo-linkedin{
+		color: blue;
+	}
+
+	#logo-linkedin:hover { 
+	color: darkred;}
+
+	#logo-twitter{
+		color: blue;
+	height: 100px;
+	width: 100px;
+	}
+
+	#logo-twitter:hover { 
+	color: darkred;
+
+}
